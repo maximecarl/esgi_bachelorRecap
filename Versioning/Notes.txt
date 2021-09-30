@@ -1,0 +1,12 @@
+Workflows
+
+Trunk based development:
+- 1 master
+- Des branches de développement
+
+Git flow :
+- 1 master (production)
+- Des branches hotfix (debug rapides de master)
+- Des branches release (tests avant de passer dans master)
+- Des branches develop (espace de rassembelement des développements)
+- Des branches feature (branches de développement des fonctionnalités)

@@ -1,0 +1,32 @@
+//GIT
+https://github.com/skrzypczyk/3IW3-2020
+
+
+// TYPES DE VARIABLES
+5 types de variables
+String - int - float - null - bool
+
+// VARIABLES SUPER GLOBALES
+Var super globales
+- initialisées et instanciées par serveur PHP
+- $_MAJUSCULES
+- toujours un tableau
+- $GLOBALS contient les autres var super globales
+$_POST, $_GET, $_SERVER, $_REQUEST, $_SESSION, $_FILES, $_COOKIE, $_ENV, $GLOBALS
+
+// FORMULAIRES
+Formulaire base : methode GET
+
+Ajout fichier : ajouter enctype="multipart/form-data"
+
+// COOKIES
+setcookie("TestCookie", $value);
+setcookie("TestCookie", $value, time()+100); //Timestamp + 100 secondes
+
+Timestamp : compteur en secondes depuis le 1er janvier 1970 (date création coeur UNIX)
+
+// SESSIONS
+session_start();
+$_SESSION['email']='email@personne.fr'
+
+password_hash() pour crypter un mot de passe
